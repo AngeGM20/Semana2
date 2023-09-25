@@ -1,0 +1,110 @@
+.border-rectangle
+{
+
+    width: 600px;
+    height: 2800px;
+    border: 10px solid black;
+}
+.recorte{
+    position: absolute; /* Establece la posición absoluta para el elemento de recorte */
+    width: 20px; /* Ancho del recorte */
+    height: 300px; /* Altura del recorte (igual que la del contenedor) */
+    background-color: white; /* Color de fondo del recorte (en este caso, blanco) */
+    top: 130px; /* Posición vertical en la parte superior del contenedor */
+    left: 610px; /* Posición horizontal en el borde izquierdo del contenedor (esto cortará el borde izquierdo) */
+}
+
+img
+{
+    position: absolute;
+    top: 40px;
+    left: 2450px;
+    width: 450px;
+    height: auto;
+}
+h1
+{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    font-size: 140px;    
+}
+h2
+{
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    font-size: 70px;  
+}
+
+.Contacto
+{
+    position: absolute;
+    top: 340px;
+    left: 790px;
+    font-size: 45px;  
+    font-weight: 700;
+}
+
+#titulos 
+{
+    position: absolute;
+    top:45%;
+    left: 30px;
+    transform: translate(40px, 5px);
+    font-size: 50px; 
+
+    
+}
+
+.parrafos
+{
+    position: absolute;
+    top: 560px;
+    left: 710px;
+    font-size: 50px;  
+}
+
+.listas
+{
+    position: absolute;
+    top: 900px;
+    left: 800px;
+    font-size: 50px;     
+}
+
+.tabla
+{
+    position: absolute;
+    top: 1550px;
+    left: 800px;
+}
+
+
+th,td
+{
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    padding: 11px;
+    text-align: center;
+}
+
+
+
+.listas2
+{
+    position: absolute;
+    top: 2100px;
+    left: 800px;
+    font-size: 50px;  
+}
+
+#links
+{
+    position: absolute;
+    top: 2450px;
+    left: 800px;
+    font-size: 50px;
+}
+
+
